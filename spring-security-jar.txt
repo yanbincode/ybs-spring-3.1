@@ -1,0 +1,57 @@
+spring security 3 各个包的介绍
+
+spring-security-core.jar ：包含了核心认证和权限控制类和接口， 运程支持和基本供应API。使用Spring Security 所必须的。
+
+			<dependency>
+				<groupId>org.springframework.security</groupId>
+				<artifactId>spring-security-core</artifactId>
+				<version>3.1.4.RELEASE</version>
+			</dependency>
+			
+spring-security-web.jar ：包含过滤器和对应的web安全架构代码。任何需要依赖servlet API的。如果你需要Spring Security Web 认证服务和基于URL 的权限控制，就需要他。
+
+			<dependency>
+				<groupId>org.springframework.security</groupId>
+				<artifactId>spring-security-web</artifactId>
+				<version>3.1.4.RELEASE</version>
+			</dependency>
+			
+spring-security-config.jar ：包含安全命名控制解析代码（因此我们不能直接把它用在你的应用中）。如果使用了Spring Security XML 命名控制来进行配置 则需要他
+
+			<dependency>
+				<groupId>org.springframework.security</groupId>
+				<artifactId>spring-security-config</artifactId>
+				<version>3.1.4.RELEASE</version>
+			</dependency>
+			
+spring-security-ldap.jar ：LDAP 认证和实现代码，如果你需要使用LDAP 认证或管理LDAP 用户实体就是必须的。
+
+			<dependency>
+				<groupId>org.springframework.security</groupId>
+				<artifactId>spring-security-ldap</artifactId>
+				<version>3.1.4.RELEASE</version>
+			</dependency>
+			
+spring-security-acl.jar ：处理领域对象ACL 实现。用来提供安全给特定的领域对象实例。
+
+			<dependency>
+				<groupId>org.springframework.security</groupId>
+				<artifactId>spring-security-acl</artifactId>
+				<version>3.1.4.RELEASE</version>
+			</dependency>
+			
+spring-security-cas-client.jar ：Spring Security 的CAS 客户端集成。如果你希望使用Spring Security web 认证整合一个CAS 单点登录服务器。
+
+			<dependency>
+				<groupId>org.springframework.security</groupId>
+				<artifactId>spring-security-cas</artifactId>
+				<version>3.1.4.RELEASE</version>
+			</dependency>
+			
+spring-security-openid.jar ：OpenID web 认证支持。用来认证用户， 通过一个外部的OpenID 服务。 需要OpenID4Java。
+
+			<dependency>
+				<groupId>org.springframework.security</groupId>
+				<artifactId>spring-security-openid</artifactId>
+				<version>3.1.4.RELEASE</version>
+			</dependency>

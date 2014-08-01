@@ -1,0 +1,166 @@
+spring3.1.4的各个jar作用
+
+org.springframework.aop-3.1.4.RELEASE.jar ---- ----spring 的面向切面编程，提供AOP（面向切面编程）实现，
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-aop</artifactId>
+			<version>3.1.4.RELEASE</version>
+		</dependency>
+
+
+
+org.springframework.asm-3.1.4.RELEASE.jar ---- ----spring 独立的asm 程序，相比2.5版本，需要额外的asm.jar包。
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-asm</artifactId>
+			<version>3.1.4.RELEASE</version>
+		</dependency>
+
+org.springframework.aspects-3.1.4.RELEASE.jar ---- ----spring 提供对 AspectJ 框架的整合。
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-aspects</artifactId>
+			<version>3.1.4.RELEASE</version>
+		</dependency>
+
+org.springframework.beans-3.1.4.RELEASE.jar ---- ----springIoC（依赖注入）的基础实现。
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-beans</artifactId>
+			<version>3.1.4.RELEASE</version>
+		</dependency>
+	
+org.springframework.context-3.1.4.RELEASE.jar ---- ----spring 提供在基础 IoC 功能上的扩展服务，此外还提供许多企业级服务的支持，如 邮件服务、任务调度、JNDI定位、EJB 集成、远程访问、 缓存以及各种视图层框架的封装等。
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>3.1.4.RELEASE</version>
+		</dependency>
+				
+org.springframework.context.support-3.1.4.RELEASE.jar ---- ----spring-context 的扩展支持，用于 MVC 方面。
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context-support</artifactId>
+			<version>3.1.4.RELEASE</version>
+		</dependency>
+		
+org.springframework.core-3.1.4.RELEASE.jar ---- ----spring3.1的核心工具包。
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-core</artifactId>
+			<version>3.1.4.RELEASE</version>
+		</dependency>
+		
+org.springframework.expression-3.1.4.RELEASE.jar ---- ----spring 表达式语言。
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-expression</artifactId>
+			<version>3.1.4.RELEASE</version>
+		</dependency>
+
+org.springframework.instrument-3.1.4.RELEASE.jar ---- ----spring3.1 对服务器的代理接口。
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-instrument</artifactId>
+			<version>3.1.4.RELEASE</version>
+		</dependency>	
+		
+org.springframework.instrument.tomcat-3.1.4.RELEASE.jar ---- ----spring3.1 对 Tomcat 的连接池的基成。
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-instrument-tomcat</artifactId>
+			<version>3.1.4.RELEASE</version>
+		</dependency>
+		
+org.springframework.jdbc-3.1.4.RELEASE.jar ---- ----spring对 JDBC的简单封装。
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-jdbc</artifactId>
+			<version>3.1.4.RELEASE</version>
+		</dependency>
+		
+org.springframework.jms-3.1.4.RELEASE.jar ---- ----spring为简化 JMS API 使用而作的简单封装。
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-jms</artifactId>
+			<version>3.1.4.RELEASE</version>
+		</dependency>
+		
+org.springframework.orm-3.1.4.RELEASE.jar ---- ----spring 整合第三方的 ORM 映射支持，如 Hibernate 、Ibatis、Jdo 以及spring的JPA的支持。
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-orm</artifactId>
+			<version>3.1.4.RELEASE</version>
+		</dependency>
+		
+org.springframework.oxm-3.1.4.RELEASE.jar ---- ----spring 对Object/XMI 的映射的支持，可以让JAVA与XML之间来回切换。
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-oxm</artifactId>
+			<version>3.1.4.RELEASE</version>
+		</dependency>
+		
+org.springframework.test-3.1.4.RELEASE.jar ---- ----spring 对Junit 等测试框架的简单封装。
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-test</artifactId>
+			<version>3.1.4.RELEASE</version>
+		</dependency>
+		
+org.springframework.transaction-3.1.4.RELEASE.jar ---- ----为JDBC、Hibernate、JDO、JPA 等提供的一致的声明式和编程式事务管理。
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-tx</artifactId>
+			<version>3.1.4.RELEASE</version>
+		</dependency>
+	
+org.springframework.web-3.1.4.RELEASE.jar ---- ----springWeb 下的工具包。
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-web</artifactId>
+			<version>3.1.4.RELEASE</version>
+		</dependency>	
+		
+org.springframework.web.portlet-3.1.4.RELEASE.jar ---- ----springMVC 的增强。
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc-portlet</artifactId>
+			<version>3.1.4.RELEASE</version>
+		</dependency>
+		
+org.springframework.web.servlet-3.1.4.RELEASE.jar ---- ----对 J2EE6.0 Servlet3.0 的支持。
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+			<version>3.1.4.RELEASE</version>
+		</dependency>
+		
+org.springframework.web.struts-3.1.4.RELEASE.jar ---- ---- 整合 Struts 的支持。
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-struts</artifactId>
+			<version>3.1.4.RELEASE</version>
+		</dependency>
+		
+
+		
